@@ -33,6 +33,9 @@ git clone https://github.com/LineageOS/android_hardware_qcom_audio -b lineage-19
 git clone https://github.com/LineageOS/android_hardware_qcom_media -b lineage-19.1-caf-msm8996 hardware/qcom-caf/msm8996/media
 git clone https://github.com/LineageOS/android_hardware_qcom_display -b lineage-19.1-caf-msm8996 hardware/qcom-caf/msm8996/display
 
+#Download device tree
+
+https://github.com/mrun1corn/device_xiaomi_onclite -b 12.1 device/xiaomi/onclite
 # Download Kernel
 git clone https://github.com/LineageOS/android_kernel_xiaomi_onclite -b lineage-19.1 kernel/xiaomi/onclite
 
