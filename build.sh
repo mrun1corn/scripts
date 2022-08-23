@@ -1,21 +1,21 @@
 echo Initializing repo to rom 
-cd /home/mrun1corn/rom/
-mkdir omni
-cd omni
+cd /home/jack
+mkdir rd
+cd rd
 echo Working direcory $(pwd)
 
 # git config
-echo COnfiguring git
+echo Configuring git
 git config --global user.email robinisalegend01@gmail.com && git config --global user.name MrUn1corn
 
 # repo init
 echo initializing rom repo
 
-repo init --depth=1 --no-repo-verify -u https://github.com/omnirom/android.git -b android-12.1 -g default,-mips,-darwin,-notdefault
+repo init --depth=1 --no-repo-verify -u https://github.com/RiceDroid/android -b twelve -g default,-mips,-darwin,-notdefault
 
 # repo sync
 
-echo initializing repo sync, take rest
+echo Initializing repo sync, take rest
 
 repo sync -c --no-clone-bundle --no-tags --optimized-fetch --prune --force-sync -j$(nproc --all)
 repo sync -c --no-clone-bundle --no-tags --optimized-fetch --prune --force-sync -j$(nproc --all)
@@ -38,3 +38,8 @@ git clone https://github.com/LineageOS/android_kernel_xiaomi_onclite -b lineage-
 
 #Download Vendor
 https://github.com/mrun1corn/android_vendor_xiaomi_onclite.git -b twelve vendor/xiaomi/onclite
+
+#start build
+. buid/envsetup.sh
+lunch lineage_onclite-userdebug && make bacon 
+
