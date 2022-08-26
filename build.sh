@@ -40,7 +40,7 @@ https://github.com/mrun1corn/device_xiaomi_onclite -b 12.1 device/xiaomi/onclite
 git clone https://github.com/LineageOS/android_kernel_xiaomi_onclite -b lineage-19.1 kernel/xiaomi/onclite
 
 #Download Vendor
-https://github.com/mrun1corn/android_vendor_xiaomi_onclite.git -b twelve vendor/xiaomi/onclite
+git clone https://github.com/mrun1corn/android_vendor_xiaomi_onclite.git -b twelve vendor/xiaomi/onclite
 
 #start build
 . buid/envsetup.sh
