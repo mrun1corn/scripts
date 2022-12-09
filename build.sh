@@ -34,7 +34,7 @@ git clone https://github.com/LineageOS/android_hardware_qcom_media -b lineage-20
 git clone https://github.com/LineageOS/android_hardware_qcom_display -b lineage-20.0-caf-msm8953 hardware/qcom-caf/msm8953/display
 
 #Download device tree
-https://github.com/mrun1corn/device_xiaomi_onclite -b 13 device/xiaomi/onclite
+git clone https://github.com/mrun1corn/device_xiaomi_onclite -b 13 device/xiaomi/onclite
 
 # Download Kernel
 git clone https://github.com/LineageOS/android_kernel_xiaomi_onclite -b lineage-19.1 kernel/xiaomi/onclite
