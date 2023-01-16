@@ -1,5 +1,5 @@
 echo Initializing repo to rom 
-cd /home/jack
+cd /home/mrun1corn/workspace
 mkdir rd
 cd rd
 echo Working direcory $(pwd)
@@ -11,7 +11,7 @@ git config --global user.email robinisalegend01@gmail.com && git config --global
 # repo init
 echo initializing rom repo
 
-repo init --depth=1 --no-repo-verify -u https://github.com/RiceDroid/android -b thirteen -g default,-mips,-darwin,-notdefault
+repo init --depth=1 --no-repo-verify -u https://github.com/ricedroidOSS/android -b thirteen -g default,-mips,-darwin,-notdefault
 
 # repo sync
 
