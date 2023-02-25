@@ -46,6 +46,6 @@ git clone https://github.com/mrun1corn/android_vendor_xiaomi_onclite.git -b 13-f
 git clone --depth=1 https://github.com/kdrag0n/proton-clang.git -b master prebuilts/clang/host/linux-x86/clang-proton
 
 #start build
-. buid/envsetup.sh
+source buid/envsetup.sh
 lunch lineage_onclite-userdebug && make bacon 
 
