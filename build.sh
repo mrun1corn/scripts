@@ -6,7 +6,7 @@ echo Working direcory $(pwd)
 
 # git config
 echo Configuring git
-git config --global user.email robinisalegend01@gmail.com && git config --global user.name MrUn1corn
+git config --global user.email robinisalegend01@gmail.com && git config --global user.name mrun1corn
 
 # repo init
 echo initializing rom repo
