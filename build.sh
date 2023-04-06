@@ -37,7 +37,7 @@ git clone https://github.com/LineageOS/android_hardware_qcom_display -b lineage-
 git clone https://github.com/mrun1corn/device_xiaomi_onclite -b 13 device/xiaomi/onclite
 
 # Download Kernel
-git clone https://github.com/LineageOS/android_kernel_xiaomi_onclite -b lineage-19.1 kernel/xiaomi/onclite
+git clone https://github.com/mrun1corn/kernel_onclite -b 13 kernel/xiaomi/onclite
 
 #Download Vendor
 git clone https://github.com/mrun1corn/android_vendor_xiaomi_onclite.git -b 13-fp3 vendor/xiaomi/onclite
