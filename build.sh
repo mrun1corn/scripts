@@ -28,10 +28,10 @@ rm -rf hardware/qcom-caf/msm8996/audio
 rm -rf hardware/qcom-caf/msm8996/media
 rm -rf hardware/qcom-caf/msm8996/display
 # Redownload Hals
-git clone https://github.com/LineageOS/android_hardware_qcom_wlan -b lineage-20.0-caf hardware/qcom-caf/wlan
-git clone https://github.com/LineageOS/android_hardware_qcom_audio -b lineage-20.0-caf-msm8996 hardware/qcom-caf/msm8996/audio
-git clone https://github.com/LineageOS/android_hardware_qcom_media -b lineage-20.0-caf-msm8996 hardware/qcom-caf/msm8996/media
-git clone https://github.com/LineageOS/android_hardware_qcom_display -b lineage-20.0-caf-msm8996 hardware/qcom-caf/msm8996/display
+git clone https://github.com/mrun1corn/hardware_qcom-caf_msm8996_audio.git -b 13 hardware/qcom-caf/msm8996/audio
+git clone https://github.com/mrun1corn/hardware_qcom-caf_msm8996_media.git -b 12 hardware/qcom-caf/msm8996/media
+git clone https://github.com/mrun1corn/hardware_qcom-caf_msm8996_display.git -b 13 hardware/qcom-caf/msm8996/display
+git clone https://github.com/mrun1corn/hardware_qcom-caf_wlan.git -b 12 hardware/qcom-caf/wlan
 
 #Download device tree
 git clone https://github.com/mrun1corn/device_xiaomi_onclite -b 13-derp device/xiaomi/onclite
