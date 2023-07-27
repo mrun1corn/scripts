@@ -1,8 +1,6 @@
 echo Initializing repo to rom 
-cd /home/mrun1corn/workspace
 mkdir rd
 cd rd
-echo Working direcory $(pwd)
 
 # git config
 echo Configuring git
