@@ -32,7 +32,7 @@ git clone https://github.com/mrun1corn/hardware_qcom-caf_msm8996_display.git -b 
 git clone https://github.com/mrun1corn/hardware_qcom-caf_wlan.git -b 12 hardware/qcom-caf/wlan
 
 #Download device tree
-git clone https://github.com/mrun1corn/device_xiaomi_onclite -b 13-ising device/xiaomi/onclite
+git clone https://github.com/mrun1corn/device_xiaomi_onclite -b 13-rising device/xiaomi/onclite
 
 # Download Kernel
 git clone https://github.com/mrun1corn/kernel_onclite -b 13 kernel/xiaomi/onclite
