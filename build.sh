@@ -11,7 +11,7 @@ git config --global user.email robinisalegend01@gmail.com && git config --global
 # repo init
 echo initializing rom repo
 
-repo init --depth=1 --no-repo-verify -u https://github.com/ricedroidOSS/android -b thirteen -g default,-mips,-darwin,-notdefault
+repo init -u https://github.com/RisingTechOSS/android -b thirteen --git-lfs
 
 # repo sync
 
@@ -34,7 +34,7 @@ git clone https://github.com/mrun1corn/hardware_qcom-caf_msm8996_display.git -b 
 git clone https://github.com/mrun1corn/hardware_qcom-caf_wlan.git -b 12 hardware/qcom-caf/wlan
 
 #Download device tree
-git clone https://github.com/mrun1corn/device_xiaomi_onclite -b 13-derp device/xiaomi/onclite
+git clone https://github.com/mrun1corn/device_xiaomi_onclite -b 13-ising device/xiaomi/onclite
 
 # Download Kernel
 git clone https://github.com/mrun1corn/kernel_onclite -b 13 kernel/xiaomi/onclite
