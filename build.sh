@@ -8,4 +8,4 @@ rm -rf hardware/qcom-caf/wlan/
 rm -rf hardware/qcom/sm7250/media/
 git clone https://github.com/LineageOS/android_hardware_qcom_sm7250_display -b lineage-20  hardware/qcom/sm7250/display/
 git clone https://github.com/PixelExperience/hardware_qcom-caf_wlan -b thirteen  hardware/qcom-caf/wlan/
-git clone https://github.com/LineageOS/android_hardware_qcom_sm7250_media -b lineage20.0 hardware/qcom/sm7250/media/
+git clone https://github.com/LineageOS/android_hardware_qcom_sm7250_media -b lineage-20.0 hardware/qcom/sm7250/media/
